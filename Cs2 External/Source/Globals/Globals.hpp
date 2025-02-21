@@ -49,35 +49,35 @@ namespace CS2
 
 namespace Offsets
 {
-    // buttons;
+    // buttons; //doesn't need an update despite being three months old lol
     inline int dwForceAttack = 0x181ABC0;
     inline int dwForceAttack2 = 0x181AC50;
     inline int dwForceJump = 0x181B0D0;
 
-    // offsets;
-    inline int dwEntityList = 0x19CA858; // uintptr_t
-    inline int dwLocalPlayerPawn = 0x182FAD8; // uintptr_t
-    inline int dwLocalPlayerController = 0x1A1A6C0; // uintptr_t
-    inline int dwViewAngles = 0x1A36990; // uintptr_t
-    inline int dwViewMatrix = 0x1A2CB00; // uintptr_t
-    inline int dwSensitivity = 0x1A29158; // uintptr_t
+    // offsets; //updated
+    inline int dwEntityList = 0x1A359B0; // uintptr_t
+    inline int dwLocalPlayerPawn = 0x1889F20; // uintptr_t
+    inline int dwLocalPlayerController = 0x1A87030; // uintptr_t
+    inline int dwViewAngles = 0x1AABA40; // uintptr_t
+    inline int dwViewMatrix = 0x1AA17B0; // uintptr_t
+    inline int dwSensitivity = 0x1A9DF58; // uintptr_t
     inline int dwSensitivity_sensitivity = 0x40; // uintptr_t
-    inline int dwGameRules = 0x1A28438; // uintptr_t
-    inline int dwGameTypes = 0x1A31B0; // uintptr_t
+    inline int dwGameRules = 0x1A9C7F0; // uintptr_t
+    inline int dwGameTypes = 0x1A41B0; // uintptr_t
     inline int dwGameTypes_mapName = 0x120; // uintptr_t
-    inline int dwPlantedC4 = 0x1A32070; // uintptr_t
-    inline int dwGlobalVars = 0x1823C50; // uintptr_t
-    inline int dwWeaponC4 = 0x19CDC50;  // uintptr_t
+    inline int dwPlantedC4 = 0x1AA6840; // uintptr_t
+    inline int dwGlobalVars = 0x187DC80; // uintptr_t
+    inline int dwWeaponC4 = 0x1A39C20;  // uintptr_t
 
 
-    // client_dll;   
+    // client_dll;   //assuming that these don't need updated for time sake\\
     inline int m_iTeamNum = 0x3E3; // uint8
-    inline int m_iHealth = 0x344; // int32
-    inline int m_ArmorValue = 0x2404; // int32
+    inline int m_iHealth = 0x1410; // int32
+    inline int m_ArmorValue = 0x241C; // int32
     inline int m_hPlayerPawn = 0x80C; // CHandle<C_CSPlayerPawn>
     inline int m_flFlashBangTime = 0x13F8; // float32
     inline int m_iIDEntIndex = 0x1458; // CEntityIndex
-    inline int m_iShotsFired = 0x23E4; // int32
+    inline int m_iShotsFired = 0x23FC; // int32
     inline int m_aimPunchAngle = 0x1584; // QAngle
     inline int m_vOldOrigin = 0x1324; // Vector
     inline int m_vecViewOffset = 0xCB0; // CNetworkViewOffsetVector
