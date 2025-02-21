@@ -1,3 +1,2 @@
-## ⚠️ Deprecated
-This project is no longer actively maintained. However, you are free to fork, fix, and redistribute it, as long as you give proper credit.
-Credit: NeoXa7
+# Original project is deprecated
+## updating and testing out this external with spare time.
