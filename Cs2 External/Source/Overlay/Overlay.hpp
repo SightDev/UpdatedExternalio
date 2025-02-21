@@ -201,7 +201,7 @@ VOID ShowTitle()
         Sleep(500);
         cout << " [+] Updating Game Vars\n";
         cout << '\n';
-        cout << " [+] Cheat Attached! \n";
+        cout << " [+] External Loaded! \n";
        // CreateLogNotification("Memory", "CONERR$");   
     }
     else
@@ -221,6 +221,7 @@ VOID ShowTitle()
         cout << "  => Server Address : " << CS2::ServerDll << '\n';
         cout << '\n';
         cout << "  Cheat Failed To Attach! \n";
+        cout << " [-] yeah, you need to update the offsets for client.dll in globals\n";
         //CreateLogNotification("Memory", "CONERR$");
     }
 }
